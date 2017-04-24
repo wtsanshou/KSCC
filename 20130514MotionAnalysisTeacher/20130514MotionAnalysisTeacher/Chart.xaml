@@ -1,0 +1,24 @@
+﻿<Window x:Class="_20130514MotionAnalysisTeacher.Chart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chart" Height="626" Width="800" xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="300"/>
+        </Grid.RowDefinitions>
+        <chartingToolkit:Chart  Name="poseChart" Title="Pose Chart" Grid.Row="0"
+		VerticalAlignment="Top"  Height="300">
+            <chartingToolkit:LineSeries  DependentValuePath="Value" 
+		IndependentValuePath="Key" ItemsSource="{Binding}" 
+		IsSelectionEnabled="True" Title="pose " />
+        </chartingToolkit:Chart>
+
+        <chartingToolkit:Chart  Name="rotationChart" Title="Rotation Chart" Grid.Row="1"
+		VerticalAlignment="Top"  Height="300">
+            <chartingToolkit:LineSeries  DependentValuePath="Value" 
+		IndependentValuePath="Key" ItemsSource="{Binding}" 
+		IsSelectionEnabled="True" Title="rotation" />
+        </chartingToolkit:Chart>
+    </Grid>
+</Window>

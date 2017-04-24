@@ -1,0 +1,46 @@
+﻿<Window x:Class="_20130520MotionAnalysisStudent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Student" Height="700" Width="1300" Loaded="WindowLoaded" Closing="WindowClosing">
+    <Grid Height="669">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="640"/>
+            <ColumnDefinition Width="640"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="480"/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+
+        <Image Name="Image" Grid.Column="0" Grid.Row="0"  Width="640" Height="480"/>
+        <Canvas x:Name="StickMen" Grid.Column="0" Grid.Row="0"  Width="640" Height="480" />
+
+        <Image Grid.Column="1" Grid.Row="0" Height="480" HorizontalAlignment="Left" Name="recordImage" VerticalAlignment="Top" Width="640" />
+        <Canvas Grid.Column="1" Grid.Row="0" Height="480" HorizontalAlignment="Left"  Name="recordSkeleton"   VerticalAlignment="Top" Width="640" />
+        <Canvas Grid.Column="1" Grid.Row="0" Height="480" HorizontalAlignment="Left"  Name="curSkeleton"   VerticalAlignment="Top" Width="640" />
+
+        <Label Content="Angle Score" Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="368,34,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Angle Average Score" Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="489,34,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="Angle" Grid.Row="1" Height="73" HorizontalAlignment="Left" FontSize="32" FontWeight="Bold" Margin="357,88,0,0" Name="angleScore" VerticalAlignment="Top" Width="103" />
+        <Label Content="Ave Angle" Height="73" HorizontalAlignment="Right" FontSize="32" FontWeight="Bold" Margin="0,88,35,0" Name="angleAveScore" VerticalAlignment="Top" Width="103" Grid.Row="1" />
+
+        <Label Content="Rotation Score" Height="28" HorizontalAlignment="Left" Margin="35,34,0,0" Name="label5" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <Label Content="Rotation Average Score" Height="28" HorizontalAlignment="Left" Margin="156,34,0,0" Name="label6" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <Label Content="Rotation" FontSize="32" FontWeight="Bold" Height="73" HorizontalAlignment="Left" Margin="24,88,0,0" Name="rotationScore" VerticalAlignment="Top" Width="103" Grid.Column="1" Grid.Row="1" />
+        <Label Content="Ave R" FontSize="32" FontWeight="Bold" Height="73" HorizontalAlignment="Right" Margin="0,88,368,0" Name="rotationAveScore" VerticalAlignment="Top" Width="103" Grid.Column="1" Grid.Row="1" />
+
+        <Label Content="Total Score" Height="28" HorizontalAlignment="Left" Margin="346,34,0,0" Name="label9" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <Label Content="tot S" FontSize="32" FontWeight="Bold" Height="73" HorizontalAlignment="Right" Margin="0,88,178,0" Name="totalScore" VerticalAlignment="Top" Width="103" Grid.Column="1" Grid.Row="1" />
+        <Button Content="Chart" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="489,138,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" Grid.Column="1" />
+        <CheckBox Content="Show Background" Grid.Row="1" Height="16" HorizontalAlignment="Left" Margin="180,32,0,0" Name="showBackground" VerticalAlignment="Top" />
+        <Button Content="Open" Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="489,44,0,0" Name="openFile" VerticalAlignment="Top" Width="75" Click="openFile_Click" />
+        <Button Content="Gesture Control" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="28,111,0,0" Name="gestureControl" VerticalAlignment="Top" Width="98" Click="gestureControl_Click" />
+        <Label Content="Label" Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="53,148,0,0" Name="angle" VerticalAlignment="Top" />
+        <Label Content="Label" Grid.Row="1" Height="37" HorizontalAlignment="Left" Margin="163,67,0,0" Name="ls" VerticalAlignment="Top" Width="263" FontSize="20" />
+        <Label Content="Label" Grid.Row="1" Height="45" HorizontalAlignment="Left" Margin="163,132,0,0" Name="rs" VerticalAlignment="Top" FontSize="20" Width="278" />
+        <TextBox Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="16,40,0,0" Name="port" VerticalAlignment="Top" Width="120" Text="6600" />
+        <Button Content="Connect" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="12,0,0,100" Name="setUp" VerticalAlignment="Bottom" Width="75" Click="setUp_Click" />
+        <Button Content="Send" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="93,77,0,0" Name="send" VerticalAlignment="Top" Width="75" Click="send_Click" />
+        <TextBox Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="16,11,0,0" Name="ipAddr" VerticalAlignment="Top" Width="120" Text="192.168.101.132" />
+    </Grid>
+</Window>

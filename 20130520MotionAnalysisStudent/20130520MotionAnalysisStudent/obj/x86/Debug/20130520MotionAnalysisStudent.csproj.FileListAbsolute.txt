@@ -1,0 +1,25 @@
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\bin\Debug\20130520MotionAnalysisStudent.exe
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\bin\Debug\20130520MotionAnalysisStudent.pdb
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\bin\Debug\Kinect.Toolbox.dll
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\bin\Debug\Microsoft.Kinect.Toolkit.FaceTracking.dll
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\bin\Debug\WPFToolkit.dll
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\bin\Debug\WPFToolkit.pdb
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\Chart.baml
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\MainWindow.baml
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\Chart.g.cs
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\MainWindow.g.cs
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\App.g.cs
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\20130520MotionAnalysisStudent_MarkupCompile.cache
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\20130520MotionAnalysisStudent.g.resources
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\_20130520MotionAnalysisStudent.Properties.Resources.resources
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\20130520MotionAnalysisStudent.exe
+E:\Workspace\Kinect\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\20130520MotionAnalysisStudent.pdb
+C:\Users\Tao\Google Drive\Backup\20130531MotionAnalysisSCV5\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\20130520MotionAnalysisStudent.exe
+C:\Users\Tao\Google Drive\Backup\20130531MotionAnalysisSCV5\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\20130520MotionAnalysisStudent.pdb
+D:\Google Drive\Backup\20130531MotionAnalysisSCV5\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\20130520MotionAnalysisStudent.exe
+D:\Google Drive\Backup\20130531MotionAnalysisSCV5\20130520MotionAnalysisStudent\20130520MotionAnalysisStudent\obj\x86\Debug\20130520MotionAnalysisStudent.pdb
